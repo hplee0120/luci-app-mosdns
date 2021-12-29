@@ -48,7 +48,6 @@ plugin:
     args:
       upstream:
         - addr:            'https://9.9.9.9/dns-query'
-        - addr:            'https://101.101.101.101/dns-query'
         - addr:            'tls://8.8.4.4'
           idle_timeout:    60
 
