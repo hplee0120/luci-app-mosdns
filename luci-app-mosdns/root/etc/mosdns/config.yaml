@@ -74,4 +74,4 @@ plugin:
     type:                  response_matcher
     args:
       ip:
-        - 'ext:./geoip.dat:cn'
+        - 'ext:./cn.dat'
