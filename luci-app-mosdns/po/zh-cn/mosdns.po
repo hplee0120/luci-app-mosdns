@@ -67,17 +67,3 @@ msgstr "检查并更新"
 msgid "Enable Auto Database Update"
 msgstr "启用数据库自动更新"
 
-msgid "This will make the necessary adjustments to other plug-in settings."
-msgstr "对其他插件的设置进行必要的设置，目前仅支持 SSRP VSSR PASSWALL。"
-
-msgid "This will revert the adjustments."
-msgstr "还原设置助手对其他插件进行的配置设定。"
-
-msgid "DNS Helper"
-msgstr "DNS 设置助手"
-
-msgid "Revert Settings"
-msgstr "DNS 设置还原"
-
-msgid "Apply"
-msgstr "应用"
