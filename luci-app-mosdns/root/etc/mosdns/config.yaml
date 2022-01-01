@@ -51,6 +51,8 @@ plugin:
         - addr:            'https://101.101.101.101/dns-query'
         - addr:            'tls://8.8.4.4'
           idle_timeout:    60
+        - addr:            'tls://1.0.0.1'
+          idle_timeout:    60
 
   - tag:                   lazy_cache
     type:                  cache
