@@ -47,11 +47,11 @@ plugin:
     type:                  fast_forward
     args:
       upstream:
-        - addr:            'https://9.9.9.9/dns-query'
-        - addr:            'https://101.101.101.101/dns-query'
         - addr:            'tls://8.8.4.4'
           idle_timeout:    30
         - addr:            'tls://1.0.0.1'
+          idle_timeout:    30
+        - addr:            'tls://9.9.9.9'
           idle_timeout:    30
 
   - tag:                   lazy_cache
