@@ -25,17 +25,17 @@ plugin:
             - '!_query_is_common'
           exec:
             - forward_local
-            - _end
+            - _return 
         - if:
             - query_is_non_local_domain
           exec:
             - forward_remote
-            - _end
+            - _return 
         - forward_local
         - if:
             - response_has_local_ip
           exec:
-            - _end
+            - _return 
         - forward_remote
 
   - tag:                   forward_local
