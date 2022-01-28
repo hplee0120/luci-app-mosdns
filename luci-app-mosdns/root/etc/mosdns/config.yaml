@@ -32,7 +32,6 @@ plugin:
           exec:
             - forward_remote
             - _return
-
         - primary:
             - forward_local
             - if:
