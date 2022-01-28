@@ -26,12 +26,12 @@ plugin:
             - '!_query_is_common'
           exec:
             - forward_local
-            - _return 
+            - _end
         - if:
             - query_is_non_local_domain
           exec:
             - forward_remote
-            - _return 
+            - _end
         - primary:
             - forward_local
             - if:
