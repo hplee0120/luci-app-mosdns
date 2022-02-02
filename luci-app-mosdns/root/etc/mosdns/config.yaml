@@ -36,16 +36,12 @@ plugin:
           exec:
             - forward_remote
             - _return
-        - primary:
-            - forward_local
-            - if:
-                - '!response_has_local_ip'
-              exec:
-                - _drop_response
-          secondary:
-            - forward_remote
-          fast_fallback:   150
-          always_standby:  true
+        - forward_local
+        - if:
+            - response_has_local_ip
+          exec:
+            - _return 
+        - forward_remote
 
   - tag:                   forward_local
     type:                  fast_forward
