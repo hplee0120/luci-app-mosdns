@@ -13,13 +13,9 @@ plugin:
         - main_sequence
       server:
         - protocol:        udp
-          addr:            127.0.0.1:5335
+          addr:            ':5335'
         - protocol:        tcp
-          addr:            127.0.0.1:5335
-        - protocol:        udp
-          addr:            '[::1]:5335'
-        - protocol:        tcp
-          addr:            '[::1]:5335'
+          addr:            ':5335'
           
   - tag:                   main_sequence
     type:                  sequence
@@ -53,11 +49,11 @@ plugin:
     args:
       upstream:
         - addr:            'tls://8.8.4.4'
-          idle_timeout:    10
+          idle_timeout:    5
         - addr:            'tls://1.0.0.1'
-          idle_timeout:    10
+          idle_timeout:    5
         - addr:            'tls://9.9.9.9'
-          idle_timeout:    10
+          idle_timeout:    5
 
   - tag:                   lazy_cache
     type:                  cache
