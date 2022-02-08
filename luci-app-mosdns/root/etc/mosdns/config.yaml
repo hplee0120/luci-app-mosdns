@@ -79,5 +79,4 @@ plugin:
     type:                  response_matcher
     args:
       ip:
-        - 'ext:./all_cn.txt'
-        - 'ext:./all_cn_ipv6.txt'
+        - 'ext:./cn.dat:cn'
