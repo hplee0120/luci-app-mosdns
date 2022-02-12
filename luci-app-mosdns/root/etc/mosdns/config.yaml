@@ -10,6 +10,7 @@ plugin:
         - _no_ecs
         - lazy_cache
         - _prefer_ipv4
+        - _single_flight
         - main_sequence
       server:
         - protocol:        udp
