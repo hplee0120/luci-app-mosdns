@@ -22,6 +22,11 @@ plugin:
     args:
       exec:
         - if:
+            - qtype65
+          exec:
+            - block
+            - _return
+        - if:
             - query_is_local_domain
             - '!_query_is_common'
           exec:
@@ -62,6 +67,18 @@ plugin:
     args:
       size:                512000
       lazy_cache_ttl:      259200
+
+  - tag:                   qtype65
+    type:                  query_matcher
+    args:
+      qtype:               [65]
+
+  - tag:                   block
+    type:                  blackhole
+    args:
+      rcode:               0
+      ipv4:                '127.0.0.1'
+      ipv6:                '::1'
 
   - tag:                   query_is_local_domain
     type:                  query_matcher
