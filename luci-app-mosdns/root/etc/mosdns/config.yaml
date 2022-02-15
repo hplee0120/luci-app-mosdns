@@ -28,7 +28,6 @@ plugin:
             - _return
         - if:
             - query_is_local_domain
-            - '!_query_is_common'
           exec:
             - forward_local
             - _return
