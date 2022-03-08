@@ -88,4 +88,4 @@ plugin:
     type:                  response_matcher
     args:
       ip:
-        - 'ext:./cn.dat:cn'
+        - 'ext:./geoip.dat:cn'
