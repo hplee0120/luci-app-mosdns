@@ -56,7 +56,7 @@ plugin:
     args:
       upstream:
         - addr:            'https://doh.opendns.com/dns-query'
-        - addr:            'https://dns10.quad9.net/dns-query'
+        - addr:            'https://dns.quad9.net/dns-query'
         - addr:            'https://dns.cloudflare.com/dns-query'
       bootstrap:
         -                  'https://223.6.6.6/dns-query'
