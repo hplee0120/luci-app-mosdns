@@ -44,22 +44,18 @@ plugin:
         - forward_remote
 
   - tag:                   forward_local
-    type:                  forward
+    type:                  fast_forward
     args:
       upstream:
-        - addr:            'https://dns.alidns.com/dns-query'
-        - addr:            'https://doh.pub/dns-query'
-      bootstrap:
-        -                  'https://223.5.5.5/dns-query'
+        - addr:            'https://223.5.5.5/dns-query'
+        - addr:            'https://1.12.12.12/dns-query'
   - tag:                   forward_remote
-    type:                  forward
+    type:                  fast_forward
     args:
       upstream:
-        - addr:            'https://doh.opendns.com/dns-query'
-        - addr:            'https://dns10.quad9.net/dns-query'
-        - addr:            'https://dns.cloudflare.com/dns-query'
-      bootstrap:
-        -                  'https://223.6.6.6/dns-query'
+        - addr:            'tls://8.8.4.4'
+        - addr:            'tls://208.67.220.220'
+        - addr:            'tls://9.9.9.10'
 
   - tag:                   lazy_cache
     type:                  cache
