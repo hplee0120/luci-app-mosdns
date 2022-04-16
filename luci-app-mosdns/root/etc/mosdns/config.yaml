@@ -84,6 +84,7 @@ plugin:
     args:
       domain:
         - 'ext:./geosite.dat:gfw'
+        - 'ext:./geosite.dat:greatfire'
 
   - tag:                   response_has_local_ip
     type:                  response_matcher
