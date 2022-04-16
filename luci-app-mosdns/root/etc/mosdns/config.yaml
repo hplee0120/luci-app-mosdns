@@ -28,6 +28,7 @@ plugin:
             - _return
         - if:
             - query_is_local_domain
+            - "!_query_is_common"
           exec:
             - forward_local
             - _return
@@ -82,7 +83,7 @@ plugin:
     type:                  query_matcher
     args:
       domain:
-        - 'ext:./geosite.dat:geolocation-!cn'
+        - 'ext:./geosite.dat:gfw'
 
   - tag:                   response_has_local_ip
     type:                  response_matcher
