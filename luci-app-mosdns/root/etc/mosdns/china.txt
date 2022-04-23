@@ -7817,8 +7817,8 @@ adbxb.com
 adc-expo.com
 adccd.com
 adcdn.com
-adcdownload.apple.com
 adcdownload.apple.com.akadns.net
+adcdownload.apple.com
 adconfer.com
 addaad.com
 addgog.com
@@ -10331,9 +10331,9 @@ banjixiaoguanjia.com
 banjuanshu.com
 bank-of-china.com
 bank-swift-code.info
-bankcomm.com
 bankcomm.com.mo
 bankcomm.com.tw
+bankcomm.com
 bankcz.com
 bankgz.com
 bankhr.com
@@ -12167,8 +12167,8 @@ bos.xin
 bosdsoft.com
 boseclub.com
 bosenrui.com
-bosera.com
 bosera.com.hk
+bosera.com
 boshi.tv
 boshika.com
 boshixitong.com
@@ -13617,8 +13617,8 @@ cdrtvu.com
 cdruzhu.com
 cdryny.com
 cds-cdn.v.aaplimg.com
-cds.apple.com
 cds.apple.com.akadns.net
+cds.apple.com
 cdsb.com
 cdsb.mobi
 cdsenfa.com
@@ -15720,8 +15720,8 @@ clickserve.dartsearch.net
 clicksun.net
 clickwifi.net
 client51.com
-clientflow.apple.com
 clientflow.apple.com.akadns.net
+clientflow.apple.com
 clientservices.googleapis.com
 cliffordtrading.com
 cliim.com
@@ -15927,7 +15927,6 @@ cmzd.com
 cmzj.net
 cmzy168.com
 cmzyk.com
-cn
 cn-bowei.com
 cn-c114.net
 cn-em.com
@@ -15953,6 +15952,7 @@ cn.net
 cn.pandora.net
 cn.vc
 cn.windowssearch.com
+cn
 cn0-6.com
 cn00.com
 cn006.com
@@ -16771,8 +16771,8 @@ comsol.com
 conbagroup.com
 conchdesktop.com
 concox.net
-configuration.apple.com
 configuration.apple.com.akadns.net
+configuration.apple.com
 confuciusinstitute.net
 cong9184.com
 congm.in
@@ -25268,9 +25268,9 @@ gsmpers.com
 gsmyi.com
 gsp10-ssl-cn.ls.apple.com
 gsp13-cn.ls.apple.com
-gsp4-cn.ls.apple.com
-gsp4-cn.ls.apple.com.edgekey.net
 gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
+gsp4-cn.ls.apple.com.edgekey.net
+gsp4-cn.ls.apple.com
 gsp5-cn.ls.apple.com
 gsp85-cn-ssl.ls.apple.com
 gspaceteam.com
@@ -26020,8 +26020,8 @@ h2ero.com
 h2ex.com
 h2os.com
 h2vm.com
-h3c.com
 h3c.com.hk
+h3c.com
 h3dns.net
 h3ue2s.com
 h3yun.com
@@ -26418,8 +26418,8 @@ hao007.net
 hao0202.com
 hao120.cc
 hao123-hao123.com
-hao123.com
 hao123.com.sg
+hao123.com
 hao123img.com
 hao1258.com
 hao163.com
@@ -30625,9 +30625,9 @@ imagelol.com
 imageoss.com
 imagepy.org
 images-cache.com
-images.apple.com
 images.apple.com.akadns.net
 images.apple.com.edgekey.net.globalredir.akadns.net
+images.apple.com
 images.benchmarkemail.com
 images.samsung.com
 imageter.com
@@ -34541,8 +34541,8 @@ kaoder.com
 kaodianer.com
 kaogua.com
 kaojionline.com
-kaola.com
 kaola.com.hk
+kaola.com
 kaola100.com
 kaolacdn.com
 kaolafm.com
@@ -34676,8 +34676,8 @@ keda-u.com
 keda.com
 kedang.net
 keddoo.com
-kede.com
 kede.com.hk
+kede.com
 kedi.cc
 kedou.com
 keede.com
@@ -34922,8 +34922,8 @@ kingbrother.com
 kingcheergame.com
 kingclouddns.com
 kingdee-soft.com
-kingdee.com
 kingdee.com.tw
+kingdee.com
 kingdee.org
 kingdeemall.com
 kingdeestar.com
@@ -36191,9 +36191,9 @@ layui.com
 layuicdn.com
 lazada.co.id
 lazada.co.th
-lazada.com
 lazada.com.my
 lazada.com.ph
+lazada.com
 lazada.sg
 lazada.vn
 lazybios.com
@@ -39398,8 +39398,8 @@ meizhejie.com
 meizhou.com
 meizhou.net
 meizitu.net
-meizu.com
 meizu.com.hk
+meizu.com
 meizu.net
 mejoybaby.com
 meke-shanghai.com
@@ -39716,8 +39716,8 @@ midadata.com
 midaijihua.com
 midainc.com
 midasbuy.com
-midea.com
 midea.com.tr
+midea.com
 midicn.com
 midifan.com
 midifan.org
@@ -43881,8 +43881,8 @@ pineprint.com
 ping-jia.net
 ping-qu.com
 ping.ubnt.com
-pingan.com
 pingan.com.hk
+pingan.com
 pingancdn.com
 pinganfang.com
 pinganwj.com
@@ -49572,8 +49572,8 @@ sinovatio.com
 sinovationventures.com
 sinovdc.com
 sinovoice.com
-sinowealth.com
 sinowealth.com.hk
+sinowealth.com
 sinowel.com
 sinoxk.com
 sinreweb.com
@@ -50792,9 +50792,9 @@ stoneu.com
 stonexp.com
 stor-age.com
 storagesemicon.com
-store.apple.com
-store.apple.com.edgekey.net
 store.apple.com.edgekey.net.globalredir.akadns.net
+store.apple.com.edgekey.net
+store.apple.com
 store.dji.com
 store.nike.com
 store.storeimages.apple.com.akadns.net
@@ -51238,8 +51238,8 @@ swcdn.apple.com
 swcdn.g.aaplimg.com
 swchina.org
 swcpu.com
-swdist.apple.com
 swdist.apple.com.akadns.net
+swdist.apple.com
 sweet-data.com
 sweetalkos.com
 sweetdan.com
@@ -52391,8 +52391,8 @@ tencent-blackboard.com
 tencent-cloud.com
 tencent-cloud.net
 tencent-gf.com
-tencent.com
 tencent.com.hk
+tencent.com
 tencentads.com
 tencentclb.com
 tencentcloud.com
@@ -53328,8 +53328,8 @@ tooopen.com
 tooseo.com
 tootour.com
 toouoo.com
-top
 top-iot.com
+top
 top100summit.com
 top147.com
 top1food.com
@@ -54216,8 +54216,8 @@ txwb.com
 txweekly.com
 txwestart.com
 txwgame.com
-txwy.com
 txwy.com.tw
+txwy.com
 txxbxx.com
 txxtw16.com
 txy8.com
@@ -54797,8 +54797,8 @@ upchinapro.com
 upchinaproduct.com
 upd.kaspersky.com
 update.googleapis.com
-updates-http.cdn-apple.com
 updates-http.cdn-apple.com.akadns.net
+updates-http.cdn-apple.com
 updates.cdn-apple.com
 updba.com
 updrv.com
@@ -58381,9 +58381,9 @@ www.agoda.com
 www.akamai.com
 www.amd.com
 www.analog.com
-www.apple.com
-www.apple.com.edgekey.net
 www.apple.com.edgekey.net.globalredir.akadns.net
+www.apple.com.edgekey.net
+www.apple.com
 www.cc
 www.cdnetworks.com
 www.cg
