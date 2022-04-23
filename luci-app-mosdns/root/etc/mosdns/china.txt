@@ -1,9 +1,3 @@
-#server=/ax1x.com/114.114.114.114 # Disabled: https://github.com/felixonmars/dnsmasq-china-list/issues/391
-#server=/globalsign.com/114.114.114.114 # Disabled: very unstable
-#server=/webnovel.com/114.114.114.114 # Disabled: https://github.com/felixonmars/dnsmasq-china-list/issues/386
-#server=/www.bing.com/114.114.114.114 # Disabled: https://github.com/felixonmars/dnsmasq-china-list/commit/449e1faf9816226ba30082cdc54061f520f78f81#r31928598
-#server=/www.linkedin.com/114.114.114.114 # Disabled: https://github.com/felixonmars/dnsmasq-china-list/issues/335
-#server=/zoom.us/114.114.114.114 # Disabled: https://github.com/felixonmars/dnsmasq-china-list/issues/29
 server=/0-100.com/114.114.114.114
 server=/0-6.com/114.114.114.114
 server=/00.net/114.114.114.114
