@@ -25,7 +25,7 @@ jobs:
           wget 'https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf' -nv -O ./luci-app-mosdns/root/etc/mosdns/apple.china.txt
           wget 'https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf' -nv -O ./luci-app-mosdns/root/etc/mosdns/google.china.txt
           cat ./luci-app-mosdns/root/etc/mosdns/accelerated-domains.china.txt ./luci-app-mosdns/root/etc/mosdns/apple.china.txt ./luci-app-mosdns/root/etc/mosdns/google.china.txt | sort | uniq > ./luci-app-mosdns/root/etc/mosdns/china.txt
-          sed -i '/' ./luci-app-mosdns/root/etc/mosdns/china.txt
+          sed -e 's|\(.*\)|server=/\1/$(SERVER)|' china.txt > china.list
           latest_commit="$(curl -s https://github.com/IrineSistiana/mosdns/commits/main | grep -E '"Copy the full SHA"' | awk -F 'value="' '{print $2}' | cut -b 1-7 | sed -n 1p)"
           sed -i '/PKG_VERSION:/d' ./mosdns/Makefile
           sed -i "7 a PKG_VERSION:=$latest_commit" ./mosdns/Makefile
