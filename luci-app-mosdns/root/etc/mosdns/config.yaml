@@ -91,3 +91,4 @@ plugin:
     args:
       ip:
         - 'ext:./geoip.dat:cn'
+
