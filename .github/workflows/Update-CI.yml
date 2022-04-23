@@ -21,10 +21,11 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/Loyalsoldier/geoip/release/cn.dat -nv -O ./luci-app-mosdns/root/etc/mosdns/geoip.dat
           wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat -nv -O ./luci-app-mosdns/root/etc/mosdns/geosite.dat
-          wget 'https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf' -nv -O ./luci-app-mosdns/root/etc/mosdns/accelerated-domains.china.txt
-          wget 'https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf' -nv -O ./luci-app-mosdns/root/etc/mosdns/apple.china.txt
-          wget 'https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf' -nv -O ./luci-app-mosdns/root/etc/mosdns/google.china.txt
-          cat ./luci-app-mosdns/root/etc/mosdns/accelerated-domains.china.txt ./luci-app-mosdns/root/etc/mosdns/apple.china.txt ./luci-app-mosdns/root/etc/mosdns/google.china.txt | sort | uniq > ./luci-app-mosdns/root/etc/mosdns/china.txt
+          wget 'https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf' -nv -O ./luci-app-mosdns/root/etc/mosdns/accelerated-domains.china.conf
+          wget 'https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf' -nv -O ./luci-app-mosdns/root/etc/mosdns/apple.china.conf
+          wget 'https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf' -nv -O ./luci-app-mosdns/root/etc/mosdns/google.china.conf
+          cat ./luci-app-mosdns/root/etc/mosdns/accelerated-domains.china.conf ./luci-app-mosdns/root/etc/mosdns/apple.china.conf ./luci-app-mosdns/root/etc/mosdns/google.china.conf | sort | uniq > ./luci-app-mosdns/root/etc/mosdns/china.conf
+          sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' china.conf | egrep -v '^#' > china.txt
           latest_commit="$(curl -s https://github.com/IrineSistiana/mosdns/commits/main | grep -E '"Copy the full SHA"' | awk -F 'value="' '{print $2}' | cut -b 1-7 | sed -n 1p)"
           sed -i '/PKG_VERSION:/d' ./mosdns/Makefile
           sed -i "7 a PKG_VERSION:=$latest_commit" ./mosdns/Makefile
