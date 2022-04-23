@@ -2,7 +2,7 @@ name: Update-CI
 
 on:
   schedule:
-    - cron: 18 23 * * *
+    - cron: 0 23 * * *
   watch:
     types: [started]
   push:
