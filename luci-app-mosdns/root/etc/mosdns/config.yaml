@@ -77,14 +77,13 @@ plugin:
     type:                  query_matcher
     args:
       domain:
-        - 'ext:./geosite.dat:cn'
+        - 'ext:./chnlist.txt'
 
   - tag:                   query_is_non_local_domain
     type:                  query_matcher
     args:
       domain:
-        - 'ext:./geosite.dat:gfw'
-        - 'ext:./geosite.dat:greatfire'
+        - 'ext:./gfwlist.txt'
 
   - tag:                   response_has_local_ip
     type:                  response_matcher
