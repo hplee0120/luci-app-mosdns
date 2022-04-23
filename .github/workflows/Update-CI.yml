@@ -20,7 +20,7 @@ jobs:
       - name: Run generate script
         run: |
           wget https://raw.githubusercontent.com/Loyalsoldier/geoip/release/cn.dat -nv -O ./luci-app-mosdns/root/etc/mosdns/geoip.dat
-          wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat -nv -O ./luci-app-mosdns/root/etc/mosdns/geosite.dat
+          https://raw.githubusercontent.com/Loyalsoldier/domain-list-custom/release/geosite.dat -nv -O ./luci-app-mosdns/root/etc/mosdns/geosite.dat
           latest_commit="$(curl -s https://github.com/IrineSistiana/mosdns/commits/main | grep -E '"Copy the full SHA"' | awk -F 'value="' '{print $2}' | cut -b 1-7 | sed -n 1p)"
           sed -i '/PKG_VERSION:/d' ./mosdns/Makefile
           sed -i "7 a PKG_VERSION:=$latest_commit" ./mosdns/Makefile
