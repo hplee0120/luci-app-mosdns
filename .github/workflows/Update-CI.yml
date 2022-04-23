@@ -5,9 +5,9 @@ on:
     - cron: 0 16 * * *
   watch:
     types: [started]
-  #push:
-  #  branches:
-  #    - master
+  push:
+    branches:
+      - master
 
 jobs:
   build:
