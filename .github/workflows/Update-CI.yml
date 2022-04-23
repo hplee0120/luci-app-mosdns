@@ -28,7 +28,7 @@ jobs:
       - name: Commit file
         run: |
           git config --global user.email admin@outlook.com
-          git config --global user.name "github-actions[bot]"
+          git config --global user.name jan20th9e
           git add .
           git commit -m "Update `date +%Y/%m/%d\ %H:%M:%S\ %Z`" -a
       - name: Push changes
