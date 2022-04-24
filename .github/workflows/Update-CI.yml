@@ -1,5 +1,4 @@
 name: Update-CI
-
 on:
   workflow_dispatch:
   schedule:
