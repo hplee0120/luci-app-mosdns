@@ -11,6 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
+      
       - name: Run generate script
         run: |
           wget https://raw.githubusercontent.com/Loyalsoldier/geoip/release/cn.dat -nv -O ./luci-app-mosdns/root/etc/mosdns/geoip.dat
