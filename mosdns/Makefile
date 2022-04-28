@@ -16,16 +16,11 @@ PKG_LICENSE:=GPL-3.0
 PKG_LICENSE_FILE:=LICENSE
 PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
 
-PKG_CONFIG_DEPENDS:= \
-	CONFIG_MOSDNS_COMPRESS_GOPROXY \
-	CONFIG_MOSDNS_COMPRESS_UPX
-
 PKG_BUILD_DEPENDS:=golang/host
 PKG_BUILD_PARALLEL:=1
 PKG_USE_MIPS16:=0
 
 GO_PKG:=github.com/IrineSistiana/mosdns
-GO_PKG_LDFLAGS:=-s -w
 GO_PKG_LDFLAGS_X:=main.version=$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
@@ -44,33 +39,11 @@ define Package/mosdns
   DEPENDS:=$(GO_ARCH_DEPENDS)
 endef
 
-define Package/mosdns/config
-config MOSDNS_COMPRESS_GOPROXY
-	bool "Compiling with GOPROXY proxy"
-	default n
-
-config MOSDNS_COMPRESS_UPX
-	bool "Compress executable files with UPX"
-	default n
-endef
-
-ifeq ($(CONFIG_MOSDNS_COMPRESS_GOPROXY),y)
-	export GO111MODULE=on
-	export GOPROXY=https://mirrors.aliyun.com/goproxy/
-endif
-
 define Build/Prepare
 	$(call Build/Prepare/Default)
 endef
 
 GO_PKG_TARGET_VARS:=$(filter-out CGO_ENABLED=%,$(GO_PKG_TARGET_VARS)) CGO_ENABLED=0
-
-define Build/Compile
-	$(call GoPackage/Build/Compile)
-ifneq ($(CONFIG_MOSDNS_COMPRESS_UPX),)
-	$(STAGING_DIR_HOST)/bin/upx --lzma --best $(GO_PKG_BUILD_BIN_DIR)/mosdns
-endif
-endef
 
 define Package/mosdns/install
 	$(call GoPackage/Package/Install/Bin,$(1))
