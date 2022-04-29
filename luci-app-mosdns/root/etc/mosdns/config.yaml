@@ -77,7 +77,7 @@ plugin:
     type:                  query_matcher
     args:
       domain:
-        - 'ext:./chnlist.txt'
+        - 'ext:./chinalist.txt'
 
   - tag:                   query_is_non_local_domain
     type:                  query_matcher
