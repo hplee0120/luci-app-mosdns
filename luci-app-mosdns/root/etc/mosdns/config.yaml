@@ -58,9 +58,9 @@ plugin:
     type:                  fast_forward
     args:
       upstream:
+        - addr:            'https://208.67.222.222/dns-query'
+        - addr:            'https://9.9.9.9/dns-query'
         - addr:            'tls://8.8.4.4'
-        - addr:            'tls://208.67.220.220'
-        - addr:            'tls://9.9.9.10'
 
   - tag:                   lazy_cache
     type:                  cache
