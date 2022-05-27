@@ -3465,7 +3465,6 @@ archive.org
 archive.ph
 archive.st
 archive.today
-archive.vn
 archiveofourown.com
 archiveofourown.me
 archiveofourown.net
@@ -4526,7 +4525,6 @@ blogspot.com.uy
 blogspot.cz
 blogspot.de
 blogspot.dk
-blogspot.es
 blogspot.fi
 blogspot.fr
 blogspot.gr
@@ -6000,7 +5998,6 @@ cnabc.com
 cnadmin.crosspoint.fit
 cnbaike.org
 cnbbnews.wordpress.com
-cnbc.com
 cnd.org
 cndownload.gzroute53.com
 cnex.org.cn
@@ -6105,7 +6102,6 @@ compusa.com
 compuserve.com
 comunio.de
 comunitatibetana.org
-conair.me
 config.getiantem.org
 config.getsync.com
 conn23.ddns.me
@@ -8292,7 +8288,6 @@ evextv.com
 evhead.com
 evilbs.com
 evolutionguide.blogspot.co.nz
-evozi.com
 evpn.me
 evsc.org.au
 evschool.net
@@ -9867,7 +9862,6 @@ google.bt
 google.by
 google.ca
 google.cat
-google.cc
 google.cd
 google.cf
 google.cg
@@ -9925,12 +9919,10 @@ google.com.gh
 google.com.gi
 google.com.gt
 google.com.hk
-google.com.iq
 google.com.jm
 google.com.kh
 google.com.kw
 google.com.lb
-google.com.lc
 google.com.libproxy.mit.edu
 google.com.ly
 google.com.mm
@@ -9957,7 +9949,6 @@ google.com.sg
 google.com.sl
 google.com.sv
 google.com.tj
-google.com.tn
 google.com.tr
 google.com.tw
 google.com.ua
@@ -9981,7 +9972,6 @@ google.fm
 google.fr
 google.ga
 google.ge
-google.gf
 google.gg
 google.gl
 google.gm
@@ -9996,7 +9986,6 @@ google.hu
 google.ie
 google.im
 google.in
-google.io
 google.iq
 google.is
 google.it
@@ -10064,7 +10053,6 @@ google.tse.moe
 google.tt
 google.tw
 google.ua
-google.uk
 google.us
 google.vg
 google.vn
@@ -12133,6 +12121,7 @@ joneame.net
 jonimitchell.com
 jonward.com
 jorn.net
+jornaldacidadeonline.com.br
 joshinweb.jp
 joshuarue.com
 jotform.com
@@ -12181,6 +12170,7 @@ js9900vip.com
 jsdaodu16.jigsy.com
 jsdd15.jigsy.com
 jsdd17.jigsy.com
+jsdelivr.net
 jsfiddle.net
 jsok369.com
 jsproxy.tk
@@ -12994,7 +12984,6 @@ lightmodehelmets.com
 lightnovel.cn
 lightyearvpn.com
 ligmincha.org
-lih.kg
 lihkg.com
 liho.club
 liimov.com
@@ -13486,7 +13475,6 @@ maikou.com
 mail-archive.com
 mail-attachment.googleusercontent.com
 mail.cod.edu
-mail.com
 mail.cyberpower.com
 mail.dynit.it
 mail.embraco.com
@@ -13761,8 +13749,8 @@ megworld.co.uk
 mehide.org
 meibath.com
 meilizhongguo.biz
-meirifuli.org
-meirixiaochao.com
+meizhong.blog
+meizhong.report
 meltdownintibet.com
 meltoday.com
 member.cff888.com
@@ -13826,6 +13814,7 @@ metartx.com
 meteofrance.com
 meteorshowersonline.com
 methdad.com
+metro.taipei
 metrohk.com.hk
 metrolife.ca
 metropouloslaw.com
@@ -14452,8 +14441,6 @@ n2.flnet.org
 n24.de
 n2646.com
 n33285.com
-n3ro.live
-n3ro.net
 n47s.ras.flnet.org
 n88850.com
 n88860.com
@@ -14596,6 +14583,7 @@ netflix.net
 netmap.su
 netme.cc
 netmums.com
+netsarang.com
 netsee.co
 netsjoes.com.br
 netsneak.com
@@ -14897,7 +14885,6 @@ notepad-plus-plus.org
 notheroes.com
 nothinghere.tk
 notify.dropboxapi.com
-notion.so
 notnancy.cl
 noto.web.id
 notproductive.com
@@ -15227,6 +15214,7 @@ onevps.com
 oneworldgaming.com
 onexxtv.com
 onion.city
+onion.ly
 onion.ws
 onionshare.org
 onision.com
@@ -15538,7 +15526,6 @@ panluan.net
 panoramio.com
 pao-pao.net
 pao66.com
-paofuyun.me
 paopao11.azurewebsites.net
 paopao12.azurewebsites.net
 paopao13.azurewebsites.net
@@ -15718,7 +15705,6 @@ pewinternet.org
 pewreligion.org
 pewresearch.org
 pewsocialtrends.org
-pexcn.me
 pezblanco.cl
 pf.anonplus.org
 pfd.org.hk
@@ -16032,7 +16018,6 @@ pornscum.com
 pornsharing.com
 pornsocket.com
 pornsos.com
-pornstarbyface.com
 pornstarclub.com
 pornstarsporno.com
 pornsyte.com
@@ -16190,7 +16175,6 @@ propub.li
 prosiben.de
 proteinalactea.com
 protempproducts.com
-protonmail.com
 protonvpn.com
 protv.ro
 protvi.ro
@@ -16744,7 +16728,6 @@ regionalwifi.net
 register.moex.gov.tw
 registry.google
 rehabforum.org
-reimu.net
 reindeervpn.com
 reisrelaas.nl
 rejectccp.com
@@ -17869,6 +17852,7 @@ sohografica.ro
 sokamonline.com
 sokmil.com
 sola.idv.tw
+solana.com
 solarsystem.nasa.gov
 soldier.ga
 solidaritetibet.org
@@ -20062,6 +20046,7 @@ usawebproxy.net
 usb3.gq
 uscellular.com
 uscirf.gov
+uscnpm.org
 uscti.org
 usdehua.com
 user.jojoex.com
@@ -20379,7 +20364,6 @@ vitamin-discounts.com
 viu.com
 viu.tv
 vivahentai4u.net
-vivaldi.net
 vivatube.com
 vivianchan.com
 viviparana.com
@@ -21215,6 +21199,7 @@ workbook.ee
 workerdemo.org.hk
 workerempowerment.org
 workermediaweb.hostingerapp.com
+workers.dev
 workersthebig.net
 workflows.co.uk
 world-for-fun.com
@@ -24373,7 +24358,6 @@ www.mesubuta.net
 www.metasploit.com
 www.metcn.com
 www.meteo.fr
-www.metro.taipei
 www.metropolismag.com
 www.mf8.com.cn
 www.mgm8091.com
@@ -27273,7 +27257,6 @@ zi.media
 ziddu.com
 zillionk.com
 zim.vn
-zind.cloud
 zindagi.ca
 zinio.com
 zionsoft.net
