@@ -50,7 +50,7 @@ plugin:
                 - _drop_response
           secondary:
             - forward_remote
-          fast_fallback: 150
+          fast_fallback: 200
           always_standby: true
 
   - tag:                   forward_local
