@@ -9,7 +9,6 @@ plugin:
       entry:
         - _no_ecs
         - lazy_cache
-        - _prefer_ipv4
         - main_sequence
       server:
         - protocol:        udp
@@ -35,6 +34,7 @@ plugin:
         - if:
             - query_is_non_local_domain
           exec:
+            - _prefer_ipv4
             - forward_remote
             - _return
         - primary:
@@ -44,6 +44,7 @@ plugin:
               exec:
                 - _drop_response
           secondary:
+            - _prefer_ipv4
             - forward_remote
           fast_fallback: 200
           always_standby: true
