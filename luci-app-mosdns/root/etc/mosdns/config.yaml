@@ -36,6 +36,13 @@ plugins:
     type: query_matcher
     args:
       qtype: [65]
+
+  - tag: blackhole
+    type: blackhole
+    args:
+      rcode: 0
+      ipv4: "127.0.0.1"
+      ipv6: "::1"
   - tag: query_is_local_domain
     type: query_matcher
     args:
@@ -61,7 +68,7 @@ plugins:
         - _no_ecs
         - if: query_is_qtype65
           exec:
-          - _new_nxdomain_response
+          - blackhole
           - _return
         - if: query_is_local_domain
           exec:
