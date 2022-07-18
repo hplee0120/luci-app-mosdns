@@ -36,7 +36,6 @@ plugins:
     type: query_matcher
     args:
       qtype: [65]
-
   - tag: blackhole
     type: blackhole
     args:
