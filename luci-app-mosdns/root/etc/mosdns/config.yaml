@@ -32,16 +32,10 @@ plugins:
     type: cache
     args:
       size: 102400
-  - tag: qtype65
+  - tag: query_is_qtype65
     type: query_matcher
     args:
       qtype: [65]
-  - tag: blackhole
-    type: blackhole
-    args:
-      rcode: 0
-      ipv4: "127.0.0.1"
-      ipv6: "::1"
   - tag: query_is_local_domain
     type: query_matcher
     args:
@@ -65,9 +59,9 @@ plugins:
         - _misc_optm
         - cache
         - _no_ecs
-        - if: qtype65
+        - if: query_is_qtype65
           exec:
-          - blackhole
+          - _new_nxdomain_response
           - _return
         - if: query_is_local_domain
           exec:
