@@ -1,92 +1,98 @@
 log:
-  level:                   error
-  file:                    ''
+  level: error
+  file: ""
 
-plugin:
-  - tag:                   main_server
-    type:                  server
+data_providers:
+  - tag: chinalist
+    file: ./chinalist.txt
+    auto_reload: true
+  - tag: gfwlist
+    file: ./gfwlist.txt
+    auto_reload: true
+  - tag: geoip
+    file: ./geoip.dat
+    auto_reload: true
+
+plugins:
+  - tag: forward_local
+    type: fast_forward
     args:
-      entry:
-        - _no_ecs
-        - lazy_cache
-        - main_sequence
-      server:
-        - protocol:        udp
-          addr:            ':5335'
-        - protocol:        tcp
-          addr:            ':5335'
+      upstream:
+        - addr: https://1.12.12.12/dns-query
+        - addr: https://223.5.5.5/dns-query
+  - tag: forward_remote
+    type: fast_forward
+    args:
+      upstream:
+        - addr: https://208.67.222.222/dns-query
+        - addr: https://9.9.9.9/dns-query
+        - addr: tls://8.8.4.4
+          enable_pipeline: true
 
-  - tag:                   main_sequence
-    type:                  sequence
+  - tag: cache
+    type: cache
+    args:
+      size: 102400
+  - tag: qtype65
+    type: query_matcher
+    args:
+      qtype: [65]
+  - tag: blackhole
+    type: blackhole
+    args:
+      rcode: 0
+      ipv4: "127.0.0.1"
+      ipv6: "::1"
+  - tag: query_is_local_domain
+    type: query_matcher
+    args:
+      domain:
+        - 'provider:chinalist'
+  - tag: query_is_non_local_domain
+    type: query_matcher
+    args:
+      domain:
+        - 'provider:gfwlist'
+  - tag: response_has_local_ip
+    type: response_matcher
+    args:
+      ip:
+        - 'provider:geoip:cn'
+
+  - tag: main_sequence
+    type: sequence
     args:
       exec:
-        - if:
-            - query_is_qtype65
+        - _misc_optm
+        - cache
+        - _no_ecs
+        - if: qtype65
           exec:
-            - _block_with_nxdomain
-            - _return
-        - if:
-            - query_is_local_domain
+          - blackhole
+          - _return
+        - if: query_is_local_domain
           exec:
             - forward_local
             - _return
-        - if:
-            - query_is_non_local_domain
+        - if: query_is_non_local_domain
           exec:
             - _prefer_ipv4
             - forward_remote
             - _return
         - primary:
             - forward_local
-            - if:
-                - "!response_has_local_ip"
+            - if: "(! response_has_local_ip) && [_response_valid_answer]"
               exec:
                 - _drop_response
           secondary:
             - _prefer_ipv4
             - forward_remote
           fast_fallback: 200
-          always_standby: true
 
-  - tag:                   forward_local
-    type:                  fast_forward
-    args:
-      upstream:
-        - addr:            https://223.5.5.5/dns-query
-        - addr:            https://1.12.12.12/dns-query
-  - tag:                   forward_remote
-    type:                  fast_forward
-    args:
-      upstream:
-        - addr:            https://208.67.222.222/dns-query
-        - addr:            https://9.9.9.9/dns-query
-        - addr:            tls://8.8.4.4
-
-  - tag:                   lazy_cache
-    type:                  cache
-    args:
-      size:                512000
-      lazy_cache_ttl:      259200
-
-  - tag:                   query_is_qtype65
-    type:                  query_matcher
-    args:
-      qtype:               [65]
-
-  - tag:                   query_is_local_domain
-    type:                  query_matcher
-    args:
-      domain:
-        - 'ext:./chinalist.txt'
-
-  - tag:                   query_is_non_local_domain
-    type:                  query_matcher
-    args:
-      domain:
-        - 'ext:./gfwlist.txt'
-
-  - tag:                   response_has_local_ip
-    type:                  response_matcher
-    args:
-      ip:
-        - 'ext:./geoip.dat:cn'
+servers:
+  - exec: main_sequence
+    listeners:
+      - protocol: udp
+        addr: ":5335"
+      - protocol: tcp
+        addr: ":5335"
