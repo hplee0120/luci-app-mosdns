@@ -87,7 +87,6 @@ plugins:
             - _prefer_ipv4
             - forward_remote
           fast_fallback: 200
-          always_standby:  true
 
 servers:
   - exec: main_sequence
