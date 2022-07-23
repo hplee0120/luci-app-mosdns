@@ -43,12 +43,12 @@ plugins:
     type: query_matcher
     args:
       domain:
-        - 'provider:geosite:cn,apple-cn,google-cn,tld-cn'
+        - 'provider:geosite:cn'
   - tag: query_is_non_local_domain
     type: query_matcher
     args:
       domain:
-        - 'provider:geosite:geolocation-!cn'
+        - 'provider:geosite:gfw'
   - tag: response_has_local_ip
     type: response_matcher
     args:
