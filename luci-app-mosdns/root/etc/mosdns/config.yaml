@@ -3,8 +3,11 @@ log:
   file: ''
 
 data_providers:
-  - tag: geosite
-    file: /etc/mosdns/geosite.dat
+  - tag: chinalist
+    file: /etc/mosdns/chinalist.txt
+    auto_reload: true
+  - tag: gfwlist
+    file: /etc/mosdns/gfwlist.txt
     auto_reload: true
   - tag: geoip
     file: /etc/mosdns/geoip.dat
@@ -43,12 +46,12 @@ plugins:
     type: query_matcher
     args:
       domain:
-        - 'provider:geosite:cn'
+        - 'provider:chinalist'
   - tag: query_is_non_local_domain
     type: query_matcher
     args:
       domain:
-        - 'provider:geosite:gfw'
+        - 'provider:gfwlist'
   - tag: response_has_local_ip
     type: response_matcher
     args:
