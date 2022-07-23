@@ -29,12 +29,6 @@ plugins:
     type: cache
     args:
       size: 200000
-      lazy_cache_ttl: 259200
-  - tag: modify_ttl
-    type: ttl
-    args:
-      minimal_ttl: 300
-      maximum_ttl: 3600
   - tag: query_is_qtype65
     type: query_matcher
     args:
@@ -73,13 +67,11 @@ plugins:
         - if: query_is_local_domain
           exec:
             - forward_local
-            - modify_ttl
             - _return
         - if: query_is_non_local_domain
           exec:
             - _prefer_ipv4
             - forward_remote
-            - modify_ttl
             - _return
         - primary:
             - forward_local
@@ -89,7 +81,6 @@ plugins:
           secondary:
             - _prefer_ipv4
             - forward_remote
-            - modify_ttl
           fast_fallback: 200
 
 servers:
