@@ -43,7 +43,7 @@ plugins:
     type: query_matcher
     args:
       domain:
-        - 'provider:geosite:cn,apple-cn,google-cn,tld-cn'
+        - 'provider:geosite:cn,apple-cn,google-cn'
   - tag: query_is_non_local_domain
     type: query_matcher
     args:
@@ -82,6 +82,7 @@ plugins:
             - _prefer_ipv4
             - forward_remote
           fast_fallback: 200
+          always_standby: true
 
 servers:
   - exec: main_sequence
