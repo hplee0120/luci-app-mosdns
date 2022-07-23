@@ -1,5 +1,5 @@
 log:
-  level: info
+  level: error
   file: ''
 
 data_providers:
@@ -43,7 +43,7 @@ plugins:
     type: query_matcher
     args:
       domain:
-        - 'provider:geosite:cn,apple-cn,google-cn'
+        - 'provider:geosite:cn,apple-cn,google-cn,tld-cn'
   - tag: query_is_non_local_domain
     type: query_matcher
     args:
