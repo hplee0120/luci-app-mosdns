@@ -1,16 +1,13 @@
 log:
   level: error
-  file: ""
+  file: ''
 
 data_providers:
-  - tag: chinalist
-    file: ./chinalist.txt
-    auto_reload: true
-  - tag: gfwlist
-    file: ./gfwlist.txt
+  - tag: geosite
+    file: /etc/mosdns/geosite.dat
     auto_reload: true
   - tag: geoip
-    file: ./geoip.dat
+    file: /etc/mosdns/geoip.dat
     auto_reload: true
 
 plugins:
@@ -31,7 +28,13 @@ plugins:
   - tag: cache
     type: cache
     args:
-      size: 102400
+      size: 200000
+      lazy_cache_ttl: 259200
+  - tag: modify_ttl
+    type: ttl
+    args:
+      minimal_ttl: 300
+      maximum_ttl: 3600
   - tag: query_is_qtype65
     type: query_matcher
     args:
@@ -40,18 +43,18 @@ plugins:
     type: blackhole
     args:
       rcode: 0
-      ipv4: "127.0.0.1"
-      ipv6: "::1"
+      ipv4: '127.0.0.1'
+      ipv6: '::1'
   - tag: query_is_local_domain
     type: query_matcher
     args:
       domain:
-        - 'provider:chinalist'
+        - 'provider:geosite:cn,apple-cn,google-cn,tld-cn'
   - tag: query_is_non_local_domain
     type: query_matcher
     args:
       domain:
-        - 'provider:gfwlist'
+        - 'provider:geosite:geolocation-!cn'
   - tag: response_has_local_ip
     type: response_matcher
     args:
@@ -62,9 +65,7 @@ plugins:
     type: sequence
     args:
       exec:
-        - _misc_optm
         - cache
-        - _no_ecs
         - if: query_is_qtype65
           exec:
           - blackhole
@@ -72,11 +73,13 @@ plugins:
         - if: query_is_local_domain
           exec:
             - forward_local
+            - modify_ttl
             - _return
         - if: query_is_non_local_domain
           exec:
             - _prefer_ipv4
             - forward_remote
+            - modify_ttl
             - _return
         - primary:
             - forward_local
@@ -86,12 +89,13 @@ plugins:
           secondary:
             - _prefer_ipv4
             - forward_remote
+            - modify_ttl
           fast_fallback: 200
 
 servers:
   - exec: main_sequence
     listeners:
       - protocol: udp
-        addr: ":5335"
+        addr: '[::]:5335'
       - protocol: tcp
-        addr: ":5335"
+        addr: '[::]:5335'
