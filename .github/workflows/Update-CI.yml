@@ -16,7 +16,10 @@ jobs:
           #wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat -nv -O ./luci-app-mosdns/root/etc/mosdns/geosite.dat
           wget https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf -nv -O ./luci-app-mosdns/root/etc/mosdns/chinalist.txt
           sed -i 's/server=\///g;s/\/114.114.114.114//g' ./luci-app-mosdns/root/etc/mosdns/chinalist.txt
-          wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt -nv -O ./luci-app-mosdns/root/etc/mosdns/gfwlist.txt
+          wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt -nv -O ./luci-app-mosdns/root/etc/mosdns/gfw.txt
+          wget https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/greatfire.txt -nv -O ./luci-app-mosdns/root/etc/mosdns/greatfire.txt
+          cat ./luci-app-mosdns/root/etc/mosdns/gfw.txt ./luci-app-mosdns/root/etc/mosdns/greatfire.txt | sort | uniq > ./luci-app-mosdns/root/etc/mosdns/gfwlist.txt
+          rm ./luci-app-mosdns/root/etc/mosdns/gfw.txt ./luci-app-mosdns/root/etc/mosdns/greatfire.txt
           latest_commit="$(curl -s https://github.com/IrineSistiana/mosdns/commits/main | grep -E '"Copy the full SHA"' | awk -F 'value="' '{print $2}' | cut -b 1-7 | sed -n 1p)"
           sed -i '/PKG_VERSION:/d' ./mosdns/Makefile
           sed -i "7 a PKG_VERSION:=$latest_commit" ./mosdns/Makefile
