@@ -32,6 +32,7 @@ plugins:
     type: cache
     args:
       size: 200000
+      lazy_cache_ttl: 259200
   - tag: query_is_qtype65
     type: query_matcher
     args:
