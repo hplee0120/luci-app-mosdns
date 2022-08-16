@@ -73,7 +73,6 @@ plugins:
                 - _drop_response
           secondary:
             - forward_local
-          fast_fallback: 500
 
 servers:
   - exec: main_sequence
