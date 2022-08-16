@@ -68,9 +68,9 @@ plugins:
         - primary:
             - _prefer_ipv4
             - forward_remote
-            - if: response_has_local_ip
+            - if: '!response_has_local_ip'
               exec:
-                - _drop_response
+                - _return
           secondary:
             - forward_local
 
