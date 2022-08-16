@@ -65,12 +65,14 @@ plugins:
           exec:
             - forward_local
             - _return
-        - _prefer_ipv4
-        - forward_remote
-        - if: '!response_has_local_ip'
-          exec:
-            - _return
-        - forward_local
+        - primary:
+            - _prefer_ipv4
+            - forward_remote
+            - if: response_has_local_ip
+              exec:
+                - _drop_response
+          secondary:
+            - forward_local
 
 servers:
   - exec: main_sequence
