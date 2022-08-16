@@ -7,8 +7,8 @@ data_providers:
     file: /etc/mosdns/chinalist.txt
     auto_reload: true
   - tag: gfwlist
-     file: /etc/mosdns/gfwlist.txt
-     auto_reload: true
+    file: /etc/mosdns/gfwlist.txt
+    auto_reload: true
   - tag: geoip
     file: /etc/mosdns/geoip.dat
     auto_reload: true
@@ -25,7 +25,7 @@ plugins:
     args:
       upstream:
         - addr: https://208.67.220.220/dns-query
-        - addr: https://1.0.0.1/dns-query
+        - addr: https://101.101.101.101/dns-query
         - addr: tls://8.8.4.4
 
   - tag: cache
@@ -43,17 +43,16 @@ plugins:
       rcode: 0
       ipv4: '127.0.0.1'
       ipv6: '::1'
-
   - tag: query_is_local_domain
     type: query_matcher
     args:
       domain:
         - 'provider:chinalist'
   - tag: query_is_non_local_domain
-     type: query_matcher
-     args:
-       domain:
-         - 'provider:gfwlist'
+    type: query_matcher
+    args:
+      domain:
+        - 'provider:gfwlist'
   - tag: response_has_local_ip
     type: response_matcher
     args:
@@ -74,6 +73,7 @@ plugins:
             - forward_local
             - _return
         - if: query_is_non_local_domain
+          exec:
             - _prefer_ipv4
             - forward_remote
             - _return
