@@ -6,6 +6,9 @@ data_providers:
   - tag: chinalist
     file: /etc/mosdns/chinalist.txt
     auto_reload: true
+  - tag: gfwlist
+     file: /etc/mosdns/gfwlist.txt
+     auto_reload: true
   - tag: geoip
     file: /etc/mosdns/geoip.dat
     auto_reload: true
@@ -46,6 +49,11 @@ plugins:
     args:
       domain:
         - 'provider:chinalist'
+  - tag: query_is_non_local_domain
+     type: query_matcher
+     args:
+       domain:
+         - 'provider:gfwlist'
   - tag: response_has_local_ip
     type: response_matcher
     args:
@@ -65,14 +73,20 @@ plugins:
           exec:
             - forward_local
             - _return
-        - primary:
+        - if: query_is_non_local_domain
             - _prefer_ipv4
             - forward_remote
-            - if: '!response_has_local_ip'
-              exec:
-                - _return
-          secondary:
+            - _return
+        - primary:
             - forward_local
+            - if: "(! response_has_local_ip) && [_response_valid_answer]"
+              exec:
+                - _drop_response
+          secondary:
+            - _prefer_ipv4
+            - forward_remote
+          fast_fallback: 200
+          always_standby: true
 
 servers:
   - exec: main_sequence
