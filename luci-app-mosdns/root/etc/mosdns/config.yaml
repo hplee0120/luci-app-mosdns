@@ -67,7 +67,7 @@ plugins:
           else_exec:
             - _prefer_ipv4
             - forward_remote
-            - if: (! response_has_local_ip)
+            - if: '! response_has_local_ip'
               exec:
                 - _return
               else_exec:
