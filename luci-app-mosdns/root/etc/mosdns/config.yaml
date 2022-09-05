@@ -23,7 +23,7 @@ plugins:
     args:
       upstream:
         - addr: https://208.67.220.220/dns-query
-        - addr: https://1.0.0.1/dns-query
+        - addr: https://45.11.45.11/dns-query
           trusted: true
         - addr: tls://8.8.4.4
           trusted: true
