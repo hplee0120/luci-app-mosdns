@@ -2321,7 +2321,6 @@
 263ytx.com
 263zw.com
 264006.com
-265.com
 26595.com
 265g.com
 265o.com
@@ -2463,8 +2462,6 @@
 2loveyou.com
 2m2j.com
 2ma2.com
-2mdn-cn.net
-2mdn.net
 2mjob.com
 2mould.com
 2or3m.com
@@ -7501,7 +7498,6 @@ adminso.com
 admintony.com
 adminxue.com
 adminxy.com
-admob-cn.com
 admpub.com
 admqr.com
 adnineplus.com
@@ -7521,7 +7517,6 @@ adsage.com
 adsagedsp.com
 adsame.com
 adscover.com
-adservice.google.com
 adsjdy.com
 adslr.com
 adsmogo.com
@@ -8906,8 +8901,6 @@ apowogame.com
 apoyl.com
 app-123.com
 app-echo.com
-app-measurement-cn.com
-app-measurement.com
 app-router.com
 app-sage.com
 app-site-association.cdn-apple.com
@@ -10311,10 +10304,6 @@ bdysite.com
 bdyxzx.com
 be-xx.com
 be90.com
-beacons.gcp.gvt2.com
-beacons.gvt2.com
-beacons2.gvt2.com
-beacons3.gvt2.com
 beadwallet.com
 bear20.com
 bearad.com
@@ -12233,8 +12222,6 @@ c-sky.com
 c-sz.com
 c-t.work
 c-yl.com
-c.admob.com
-c.android.clients.google.com
 c.citic
 c.team
 c0594.com
@@ -12303,7 +12290,6 @@ cablingteam.com
 cabplink.com
 cacfo.com
 cacg.cc
-cache.pack.google.com
 cachekit.com
 cackui.com
 cacpp.com
@@ -13667,7 +13653,6 @@ chebada.com
 checheboke.com
 chechong.com
 check.cc
-checkin.gstatic.com
 checkip.pw
 checkoo.com
 checkpass.net
@@ -15169,13 +15154,11 @@ cli.im
 click-v.com
 click369.com
 clicksdiy.com
-clickserve.dartsearch.net
 clicksun.net
 clickwifi.net
 client51.com
 clientflow.apple.com.akadns.net
 clientflow.apple.com
-clientservices.googleapis.com
 cliffordtrading.com
 cliim.com
 cliim.net
@@ -16199,7 +16182,6 @@ congrongfund.com
 congyicn.com
 congzao.com
 congzhi.com
-connectivitycheck.gstatic.com
 connector-systems.com
 conoha.vip
 conohavps.com
@@ -16302,7 +16284,6 @@ coralsec.com
 corebai.com
 coreesports.net
 coreldrawchina.com
-corp.google.com
 corpautohome.com
 corpease.net
 corpize.com
@@ -16626,7 +16607,6 @@ crispstata.com
 crjfw.com
 crl.globalsign.net
 crl.kaspersky.com
-crl.pki.goog
 crlcn.com
 crlf0710.com
 crlg.com
@@ -16728,7 +16708,6 @@ cshope.net
 cshufanyi.com
 cshxdc.com
 cshzw.com
-csi.gstatic.com
 csic-711.com
 csic-ljtech.com
 csic612.com
@@ -17627,7 +17606,6 @@ darryring.com
 darshchemicals.com
 dartchina.com
 dartou.com
-dartsearch-cn.net
 daruan.com
 darwinlearns.com
 dashangcloud.com
@@ -18714,8 +18692,6 @@ dkybpc.com
 dl-rc.com
 dl.delivery.mp.microsoft.com
 dl.djicdn.com
-dl.google.com
-dl.l.google.com
 dl0728.com
 dl158.net
 dl2link.com
@@ -19132,8 +19108,6 @@ doubanio.com
 doubean.com
 doubi.ren
 doubimeizhi.com
-doubleclick-cn.net
-doubleclick.net
 douboshi.net
 douc.cc
 doucang.com
@@ -22111,7 +22085,6 @@ fir.vip
 firadio.net
 fire233.com
 fire2333.com
-firebase-settings.crashlytics.com
 firebirdprint.com
 fireemblem.net
 fireemulator.com
@@ -22387,8 +22360,6 @@ font.im
 font5.com
 font6.com
 fontke.com
-fonts.googleapis.com
-fonts.gstatic.com
 foodbk.com
 foodjx.com
 foodmate.net
@@ -22961,7 +22932,6 @@ fzzyky.com
 g-emall.com
 g-photography.net
 g-var.com
-g1.gstatic.com
 g12345.com
 g12e.com
 g168.net
@@ -22969,7 +22939,6 @@ g188.net
 g1c5.com
 g1d.net
 g1f5.com
-g2.gstatic.com
 g2.link
 g207.com
 g2g1.com
@@ -24169,27 +24138,9 @@ goodtea.cc
 goodtp.com
 goodzuji.com
 goofish.com
-google-analytics-cn.com
-google-analytics.com
-googleadservices-cn.com
-googleadservices.com
-googleanalytics.com
-googleapis-cn.com
-googleapps-cn.com
 googlebridge.com
-googleflights-cn.net
 googlefonts.net
 googlenav.com
-googleoptimize-cn.com
-googleoptimize.com
-googlesyndication-cn.com
-googlesyndication.com
-googletagmanager-cn.com
-googletagmanager.com
-googletagservices-cn.com
-googletagservices.com
-googletraveladservices-cn.com
-googlevads-cn.com
 googlevip8.com
 googlevoice.org
 googleyixia.com
@@ -24466,7 +24417,6 @@ gssdlv.com
 gssfgk.com
 gst-china.net
 gstarcad.com
-gstaticadssl.l.google.com
 gstdt.com
 gstonegames.com
 gsxb.net
@@ -24527,7 +24477,6 @@ gtm-i1d7.com
 gtm-i1d8.com
 gtm-i1d9.com
 gtm-i2d8.com
-gtm.oasisfeng.com
 gtmlufax.com
 gtn9.com
 gto365.com
@@ -24854,8 +24803,6 @@ gvacdn.com
 gvi-tech.com
 gvlocalization.com
 gvofl.com
-gvt1-cn.com
-gvt2-cn.com
 gw-ec.com
 gw.craft.moe
 gw2sc.com
@@ -29782,7 +29729,6 @@ imanhuaw.net
 imaojiang.com
 imarketchina.com
 imaschina.com
-imasdk.googleapis.com
 imatchic.com
 imatlas.com
 imaycon.com
@@ -41301,7 +41247,6 @@ ocrmaker.com
 ocsp-lb.apple.com.akadns.net
 ocsp.apple.com
 ocsp.globalsign.com
-ocsp.pki.goog
 ocsp.us.cdnetworks.com
 ocsp2.apple.com
 ocsp2.globalsign.com
@@ -42034,7 +41979,6 @@ padasuo.net
 padding.me
 paddlepaddle.org
 paddlewaver.com
-pagead-googlehosted.l.google.com
 pageadmin.net
 pagechoice.com
 pagechoice.net
@@ -42875,7 +42819,6 @@ pkbkok.com
 pkdyplayer.com
 pkfj.xyz
 pkgklk.com
-pki-goog.l.google.com
 pkm360.com
 pkmmo.com
 pko123.com
@@ -45312,7 +45255,6 @@ rebatesme.com
 rebo5566.com
 rebooo.com
 reborncodinglife.com
-recaptcha.net
 recgo.com
 rechaos.com
 recolighting.com
@@ -45337,7 +45279,6 @@ redianzixun.com
 rediao.com
 redicecn.com
 redidc.com
-redirector.gvt1.com
 redisbook.com
 redisdoc.com
 redisfans.com
@@ -45373,7 +45314,6 @@ refineidea.com
 reformdata.org
 refractorywin.com
 reg007.com
-regioninfo-pa.googleapis.com
 regishome.com
 reglogo.net
 regtm.com
@@ -46122,7 +46062,6 @@ sacdr.net
 sact-digital.com
 sae-china.org
 saebbs.com
-safebrowsing.googleapis.com
 safecenter.com
 safehoo.com
 safejmp.com
@@ -49363,8 +49302,6 @@ ssjjtt.com
 ssjlicai.com
 ssjzw.com
 ssky123.com
-ssl-google-analytics.l.google.com
-ssl.gstatic.com
 sslaaa.com
 sslceshi.com
 sslchaoshi.com
@@ -52021,8 +51958,6 @@ toolinbox.net
 toolmall.com
 toolmao.com
 toolnb.com
-tools.google.com
-tools.l.google.com
 tooming.com
 toomoss.com
 toon.mobi
@@ -52264,10 +52199,8 @@ transer-cn.com
 transformer-cn.com
 transfu.com
 transfun.net
-translate.googleapis.com
 translatego.net
 translation-dictionary.net
-translation.googleapis.com
 translationchina.com
 transn.com
 transnbox.com
@@ -53472,7 +53405,6 @@ upchina.com
 upchinapro.com
 upchinaproduct.com
 upd.kaspersky.com
-update.googleapis.com
 updates-http.cdn-apple.com.akadns.net
 updates-http.cdn-apple.com
 updates.cdn-apple.com
@@ -56964,8 +56896,6 @@ www-123490.com
 www-175345.com
 www-4620.com
 www-63608.com
-www-google-analytics.l.google.com
-www-googletagmanager.l.google.com
 www.adobe.com
 www.agoda.com
 www.akamai.com
@@ -56985,7 +56915,6 @@ www.djivideos.com
 www.epsonconnect.com
 www.globalsign.com
 www.gov.mo
-www.gstatic.com
 www.htc.com
 www.htcsense.com
 www.microsoft.com
