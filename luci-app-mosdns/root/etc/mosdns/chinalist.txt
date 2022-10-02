@@ -38,6 +38,7 @@
 00544.com
 0061.com.au
 00615.net
+007.pub
 00791.com
 007hd.com
 007manhua.com
@@ -1310,7 +1311,6 @@
 15yl.com
 160.com
 160.me
-160edu.net
 160yx.com
 161580.com
 1616.net
@@ -4315,6 +4315,7 @@
 521szlx.com
 521tieba.com
 521up.com
+521wmy.com
 52237377.com
 522g.com
 523333.com
@@ -5470,6 +5471,7 @@
 6tiantian.com
 6tie.com
 6v.com
+6v6.work
 6vps.net
 6wan.com
 6wtx.com
@@ -11764,7 +11766,6 @@ braincf.com
 brand4x4.com
 brandcn.com
 brandvista.com
-brandzg.com
 brbtyt.com
 breadtrip.com
 breakingnewsireland.com
@@ -12311,7 +12312,6 @@ cafachine.com
 cafagame.com
 cafamuseum.org
 cafebeta.com
-cafecole-maison.com
 caffci.org
 caffeenglish.com
 cagetest.com
@@ -13420,6 +13420,7 @@ cha127.com
 chabeichong.com
 chachaba.com
 chachaqu.com
+chacheliang.com
 chachongba.cc
 chacuo.net
 chadan.wang
@@ -13456,6 +13457,7 @@ chairyfish.com
 chaishiguan.com
 chaitin.com
 chajiandaquan.com
+chajiaotong.com
 chajie.com
 chajn.org
 chakahao.com
@@ -20658,7 +20660,6 @@ enbowang.com
 enbrands.com
 enec.net
 enelcn.com
-enen6.com
 enet360.com
 enetedu.com
 enfi.vip
@@ -21150,7 +21151,6 @@ ext2fsd.com
 extfans.com
 exthin.net
 extmail.org
-extremep2p.com
 extron-tech.com
 extstars.com
 exuanfang.cc
@@ -28581,6 +28581,7 @@ hyrainbow.com
 hysdknb.com
 hysec.com
 hysemi-ic.com
+hyshi.net
 hysteeltube.com
 hyt368.com
 hytcshare.com
@@ -30092,7 +30093,6 @@ intsavi.com
 intsig.net
 intsweet.com
 intwho.com
-intwk.com
 inuobi.com
 inuu6.com
 inveno.com
@@ -31138,7 +31138,6 @@ jdxlt.com
 jdxs5200.net
 jdxzz.com
 jdy.com
-jdy8848.com
 jdycdn.com
 jdyou.com
 jdypf.com
@@ -32312,7 +32311,6 @@ jmhapp.com
 jmhd8.com
 jmj1995.com
 jmjc.tech
-jmjiuchang.com
 jmjxc.com
 jmkjmob2.xyz
 jmkjmob5.xyz
@@ -33278,6 +33276,7 @@ jzongguan.com
 jzrb.com
 jzrc.net
 jzrsrc.com
+jzsadlkfadf.com
 jzsc.net
 jzsc8.com
 jzsgzmhjyxgs.com
@@ -33543,7 +33542,6 @@ kaobeitu.com
 kaocat.com
 kaochong.com
 kaoder.com
-kaodianer.com
 kaogua.com
 kaojionline.com
 kaola.com.hk
@@ -33628,6 +33626,7 @@ kbscloud.com
 kbtv.me
 kbw2018.com
 kbyun.com
+kcdn0.com
 kcdns.net
 kcdnvip.com
 kchance.com
@@ -37181,7 +37180,6 @@ lvshedesign.com
 lvshi567.com
 lvshiminglu.com
 lvshou.com
-lvshouwe.com
 lvshunfang.com
 lvshunmuseum.org
 lvsongguo.com
@@ -38003,7 +38001,6 @@ mch5k.com
 mchat.com
 mchifi.com
 mcidc.net
-mcjcjx.com
 mcjd.net
 mcmssc.com
 mcooks.com
@@ -39062,7 +39059,6 @@ mng0303.com
 mnihyc.com
 mnjj.group
 mnkan.com
-mnlscz.com
 mnoswqa.com
 mnpz8.com
 mnwww.com
@@ -41580,6 +41576,7 @@ ooogo.com
 ooopic.com
 ooopn.com
 ooppoo.com
+ootu.cc
 oouee.com
 oouyan.com
 ooxx.me
@@ -43962,6 +43959,7 @@ qiigame.com
 qijee.com
 qiji.tech
 qijiadianzi.com
+qijian99.com
 qijianzs.com
 qijiapay.com
 qijiarui-test.com
@@ -44285,6 +44283,7 @@ qiyewenhua.net
 qiyexinyong.org
 qiyexun.com
 qiyexxw.com
+qiyeyougou.com
 qiyeyouxiang.net
 qiyi.com
 qiyicc.com
@@ -44519,6 +44518,7 @@ qqopenapp.com
 qqpao.com
 qqpifu.com
 qqppt.com
+qqpss.cc
 qqq.tv
 qqqiyemail.com
 qqqnm.com
@@ -47437,7 +47437,6 @@ shicishe.com
 shiciyun.com
 shida66.com
 shidaedu.vip
-shidaiyuhu.com
 shidapx.com
 shidastudy.com
 shidi.org
@@ -48704,6 +48703,7 @@ smtcl.com
 smtdc.com
 smth.org
 smthome.net
+smtlzb.com
 smtsvs.com
 smttouch.com
 smtvip.com
@@ -49923,7 +49923,6 @@ swakopuranium.com
 swallow.apple.com
 swang8.com
 swansea86.com
-swansonchina.com
 swap.wang
 swaqds.com
 swarma.net
@@ -50763,6 +50762,7 @@ taokezhushou.com
 taokouling.com
 taoku.com
 taolusm.com
+taoluzhibo56.com
 taolx.com
 taomanhua.com
 taomee.com
@@ -51641,7 +51641,6 @@ tiprpress.com
 tips1000.com
 tiqiaa.com
 tiqianle.com
-tired.im
 tiruna-cn.com
 tisgame.com
 tisino.com
@@ -56583,6 +56582,7 @@ write-bug.com
 writebp.com
 wrjzj.com
 wrkdih.com
+wrl163.com
 wrltxt.com
 wrmjk.com
 wrsa.net
@@ -58264,7 +58264,6 @@ xindi02.site
 xindie.net
 xindingwealth.com
 xindns.com
-xindns.mobi
 xindong.com
 xinduihuan.com
 xinduo.com
@@ -58662,6 +58661,7 @@ xixiqipai.com
 xixisys.com
 xixiwg.com
 xiyacs.com
+xiyamaoyi.com
 xiyang1.icu
 xiyijiang.com
 xiyin.life
