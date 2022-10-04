@@ -49,7 +49,6 @@ plugins:
       size: 65535
       ttl: 1800
       handle_ptr: true 
-
   - tag: query_is_local_domain
     type: query_matcher
     args:
