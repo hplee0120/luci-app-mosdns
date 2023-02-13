@@ -64,6 +64,7 @@ plugins:
     type: sequence
     args:
       exec:
+        - _misc_optm
         - reverse_lookup
         - cache
         - if: qtype65
