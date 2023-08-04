@@ -35,12 +35,6 @@ plugins:
     type: query_matcher
     args:
       qtype: [65]
-  - tag: blackhole
-    type: blackhole
-    args:
-      rcode: 0
-      ipv4: '127.0.0.1'
-      ipv6: '::1'
   - tag: chinalist
     type: query_matcher
     args:
@@ -60,7 +54,7 @@ plugins:
         - _prefer_ipv4
         - if: qtype65
           exec:
-          - blackhole
+          - _new_nxdomain_response
           - _return
         - if: chinalist
           exec:
@@ -73,7 +67,7 @@ plugins:
                 - _drop_response
           secondary:
             - china_dns
-          fast_fallback: 3000
+          fast_fallback: 2500
           always_standby: false
 servers:
   - exec: main_sequence
